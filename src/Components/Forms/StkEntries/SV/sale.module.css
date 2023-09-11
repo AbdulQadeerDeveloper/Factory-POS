@@ -1,0 +1,264 @@
+
+
+.igp_caption_area{
+    padding: 0 0 15px 0;
+}
+
+
+/*.caption_voc{
+    width: 90px; 
+    color: #333;
+    text-align: right; 
+    padding-right: 15px; 
+    margin-top: 5px; 
+    float: left;
+}
+.field_voc{
+    width: 67px;
+    float: left;
+    text-align: center!important;
+}
+.field_voc_input{
+    width: 100%!important;
+    text-align: center!important;
+}
+.plus{
+    width: 20px;
+    text-align: right; 
+    margin-left: 1px;
+    margin-right: 1px;
+    float: left;
+}
+.plus button{
+    width: 20px;
+}
+.minus{
+    width: 20px;
+    text-align: left; 
+    margin-left: 0px;
+    margin-right: 1px;
+    float: left;
+}
+.minus button{
+    width: 20px;
+}
+.maxvoucher_voc{
+    width: 40px;
+    text-align: left; 
+    margin-left: 0; 
+    float: left;
+} */
+
+
+.caption_date{
+    width: 90px; 
+    text-align: right;
+    /* margin-left: 10px; */
+    padding-right: 15px; 
+    margin-top: 5px; 
+    float: left;
+}
+.field_date{
+    width: 150px; 
+    float: left;
+}
+
+.caption_text{
+    width: 90px; 
+    text-align: right;
+    /* margin-left: 10px; */
+    padding-right: 15px; 
+    margin-top: 5px; 
+    float: left;
+}
+.field_text{
+    width: 150px;
+    float: left;
+}
+.caption_ddate{
+    width: 90px; 
+    text-align: right; 
+    padding-right: 15px; 
+    margin-top: 5px; 
+    float: left;
+    /* margin-left: 10px; */
+}
+.field_ddate{
+    width: 150px; 
+    float: left;
+}
+.caption_exdate{
+    width: 70px; 
+    text-align: right; 
+    padding-right: 15px; 
+    margin-top: 5px; 
+    float: left;
+    margin-left: 10px;
+}
+.field_exdate{
+    width: 150px; 
+    float: left;
+}
+/* .field_date input{} */
+
+
+.caption_party{
+    width: 100px; 
+    text-align: right; 
+    padding-right: 15px; 
+    margin-top: 5px; 
+    float: left;
+}
+.field_party{
+    width: 275px;
+    float: left;
+}
+.caption_status{
+    width: 100px; 
+    text-align: right; 
+    padding-right: 15px; 
+    margin-top: 5px; 
+    float: left;
+}
+/* .field_status{} */
+.field_status_input{
+    margin-top: 5px;
+}
+.status_radio{
+    border: 1px solid #ccc;
+    float: left;
+    width: 150px;
+    padding: 3px 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.field_frieght_input{
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 720px) {
+
+/* voc input styling */
+    /* .caption_voc{
+        width: 20%;
+        margin-left: 0px;
+        margin-bottom: 7px;
+    }
+    .field_voc{
+        width:45%;
+        margin-bottom: 7px;
+    }
+    .maxvoucher_voc{
+        width: 15%;
+        padding-left: 1%;
+        margin-bottom: 7px;
+    }
+    .plus{
+        width: 8%;
+        text-align: right; 
+        margin-left: 0; 
+        float: left;
+        display: block;
+    }
+    .plus button{
+        width: 22px;
+    }
+    .minus{
+        width: 8%;
+        text-align: center; 
+        margin-left: 0; 
+        float: left;
+        display: block;
+    }
+    .minus button{
+        width: 22px;
+        padding: 0;
+        margin: 0;
+        line-height: 10px;
+    } */
+
+/* date input styling */
+    .caption_date{
+        width: 20%!important;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    .field_date{
+        width: 75%!important;
+        margin-bottom: 10px;
+    }
+
+    .caption_text{
+        width: 20%!important;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    .field_text{
+        width: 75%!important;
+        margin-bottom: 10px;
+    }
+
+    .caption_ddate{
+        width: 20%!important;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-top: -15px!important;
+    }
+    .field_ddate{
+        width: 75%!important;
+        margin-bottom: 10px;
+        margin-top: -20px!important;
+    }
+
+    .caption_exdate{
+        width: 20%!important;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    .field_exdate{
+        width: 75%!important;
+        margin-bottom: 10px;
+    }
+
+/* party input styling */
+    .caption_party{
+        width: 20%!important;
+        margin-bottom: 10px;
+    }
+    .field_party{
+        width: 75%!important;
+        margin-bottom: 10px;
+        float: left;
+    }
+
+/* status input styling */
+    .caption_status{
+        width: 20%;
+    }
+    .status_radio{
+        width: 75%!important;
+        float: left;
+        text-align: center;
+        padding: 5px 0;
+        border: 1px solid #ccc;
+    }
+    .field_status_input{
+        margin-top: 5px;
+        background: green;
+    }
+    
+    .spacer{
+        padding: 5px 0;
+    }
+
+    .due{
+        width: 75%!important;
+        margin-bottom: 30px!important;
+    }
+    .minusmargingotop{
+        margin-top: -20px!important;
+    }
+
+}

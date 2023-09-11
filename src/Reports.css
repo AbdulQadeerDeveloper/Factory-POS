@@ -1,0 +1,561 @@
+:root {
+  --body-bg-color: grey;
+  --main-font-color: #444;
+  --normal-font-size: 12px;
+  --small-font-size: 10px;
+  --panel-bg-color: #d9edf7;
+  --top-btn-bg: #d9edf7;
+  --top-btn-border: #ccc;
+  --top-btn-color: #444;
+  --bottom-btn-bg: #5bc0de;
+  --bottom-btn-color: #fff;
+  --bottom-btn-border: #46b8da;
+  --main-container-border: darkgrey;
+  --main-div-border: #eee;
+}
+
+/* reports global styling */
+.report_caption_area {
+  padding: 10px 5px 0 7px;
+  /* background: orange; */
+}
+.reports_prints_headers {
+  display: none;
+}
+.reports_top_heading {
+  background: lightgrey;
+  color: #000;
+  width: 200px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+}
+/* reports global styling */
+
+/* CPB_Bal report styling */
+.report_cpb_bal_th .cpb_bal_th_cpbno {
+  width: 50px !important;
+}
+.report_cpb_bal_th .cpb_bal_th_date {
+  width: 80px !important;
+}
+.report_cpb_bal_th .cpb_bal_th_bank {
+  width: 50px !important;
+}
+.report_cpb_bal_th .cpb_bal_th_partyname {
+  width: 350px !important;
+}
+.report_cpb_bal_th .cpb_bal_th_issueto {
+  width: 300px !important;
+}
+.cpb_bal_th_amount {
+  width: 80px !important;
+}
+
+/* report styling */
+.summarized {
+  float: left;
+  text-align: center;
+}
+.summarized label {
+  margin-bottom: 10px;
+}
+.report_plus_minus_btns {
+  width: 100%;
+  text-align: left;
+}
+.report_generate_btn {
+  width: 100%;
+  text-align: right;
+}
+.report_print_btn {
+  width: 100%;
+  text-align: right;
+}
+.report_print_btn button,
+.report_generate_btn button {
+  height: 38px;
+  width: 90%;
+}
+.report_input_space_top_bottom {
+  height: 10px;
+}
+.rs-toggle-checked .rs-toggle-presentation,
+.rs-toggle-presentation {
+  background: #444 !important;
+  width: 70px !important;
+  border-radius: 3px !important;
+}
+/* report styling */
+
+@media only screen and (max-width: 520px) {
+  /* reports global styling */
+  .report_caption_area {
+    padding: 0px !important;
+  }
+  .reports_top_heading {
+    width: 100% !important;
+  }
+  /* reports global styling */
+
+  /* report styling */
+  .summarized {
+    float: none;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+  }
+  .summarized label {
+    margin: 10px;
+  }
+  .summarized input {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+  }
+  .field_1 {
+    float: none !important;
+  }
+  .report_plus_minus_btns {
+    width: 100% !important;
+    text-align: center !important;
+    float: none !important;
+  }
+  .report_plus_minus_btns button {
+    width: 45%;
+  }
+  .report_generate_btn {
+    width: 100%;
+    text-align: center;
+  }
+  .report_print_btn {
+    width: 100%;
+    text-align: center;
+    float: none;
+    margin-bottom: 15px;
+  }
+  .report_input_space_top_bottom {
+    height: 0px !important;
+  }
+  /* report styling */
+
+  /* Daily Reg Report Styling */
+  .report_dailyreg_sdate_column {
+    margin-left: 0 !important;
+    margin-top: 10px !important;
+  }
+  .report_dailyreg_edate_column {
+    margin-top: 10px !important;
+  }
+  .report_dailyreg_buttons {
+    float: left;
+    text-align: center !important;
+    padding: 7px 0;
+  }
+  .dailyreggeneratebuttons_column {
+    float: left !important;
+    width: 50%;
+  }
+  .report_dailyreg_generate {
+    margin-top: -10px !important;
+    float: left !important;
+    text-align: center !important;
+  }
+  .report_dailyreg_generate button {
+    float: none !important;
+    width: 60% !important;
+    text-align: center !important;
+  }
+  .report_dailyreg_print {
+    margin-top: -10px !important;
+    float: left;
+    text-align: center !important;
+  }
+  .report_dailyreg_print button {
+    float: none !important;
+    width: 60% !important;
+    text-align: center !important;
+  }
+}
+
+@media print {
+  /* for global usage */
+  .table_labels {
+    font-size: 12px !important;
+  }
+  .table_th {
+    font-size: 10px !important;
+    font-weight: bolder;
+  }
+  .table_td {
+    font-size: 10px !important;
+    font-weight: normal !important;
+  }
+  .table_labels_text {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    margin-top: -5px !important;
+  }
+
+  .timesroman {
+    vertical-align: top;
+    font-style: italic;
+    font-family: "Times New Roman";
+    padding-bottom: 10px !important;
+  }
+  .printing_area table {
+    margin-bottom: 0px !important;
+    border: none !important;
+    margin-top: 10px !important;
+  }
+  .printing_area table tr,
+  .printing_area table td {
+    border: 1px solid lightgray !important;
+  }
+  .printing_area .panel {
+    border-radius: 0 !important;
+    border: none !important;
+  }
+
+  .reports_top_heading {
+    background: lightgrey !important;
+    color: #000;
+    width: 200px;
+    padding: 5px 0;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .reports_prints_headers {
+    display: block !important;
+  }
+  .reports_prints_headers .reports_heading_right {
+    text-align: center !important;
+    margin-top: -20px !important;
+  }
+  .reports_prints_headers .reports_from_to_date {
+    border-bottom: 1px solid #444 !important;
+  }
+  .reports_prints_headers .reports_title {
+    font-size: 20px !important;
+    font-family: tahoma !important;
+  }
+  a[href]:after {
+    content: none !important;
+  }
+
+  /* cheque voucher styling */
+  /*
+table.cheque_table{
+  margin-top: 25px !important;
+}
+table.journal_table{
+  margin-top: 25px !important;
+}
+div.cheque_left, div.cheque_right{
+  width: 50% !important;
+  text-align: left !important;
+  float: left !important;
+  height: 60px !important;
+}
+div.cheque_left div.party_label{
+  margin-top: 12px !important;
+}
+div.cheque_right{
+  position: relative !important;
+}
+tr.heading_row th.cheque_main_th{
+  padding: 0!important;
+}
+div.cheque_right div.status_main{
+  border: 1px solid lightgrey !important; 
+  width: 160px !important; 
+  text-align: center !important; 
+  position: absolute !important; 
+  bottom: 10px !important; 
+  right: 10px !important; 
+  padding: 5px 0 !important;
+}
+div.cheque_right div.status_main div.status_heading{
+  font-size: 10px !important; 
+  margin-top: -13px !important; 
+  background: white !important; 
+  width: 80px !important; 
+  text-align: center !important;
+}
+div.cheque_left div.party_name, div.party_label{
+  font-weight: bold !important;
+  font-size: 15px !important;
+  margin-left: 10px !important;
+}
+div.cheque_table > div.print_date{
+  font-weight: 100 !important;
+}
+tr.cheque_transaction_row td{
+  text-align: center !important;
+  padding: 7px !important;
+}
+tr.cheque_transaction_row td:nth-child(7){
+  text-align: right !important;
+}
+div.cheque_info div.cheque_voucher_heading{
+  font-size: 14px !important;
+  background: lightgray !important;
+  padding: 5px 0 !important;
+  text-transform: uppercase;
+  font-weight: bold !important;
+}
+div.cheque_info div.cheque_voucher_date{
+  font-size: 12px !important;
+  padding: 5px 0 !important;
+  border-bottom: 1px solid #ddd !important;
+}
+div.cheque_info div.cheque_voucher_no{
+  font-size: 12px !important;
+  padding: 5px 0 !important;
+}
+tr.cheque_total_row > td{
+  font-size: 14px !important;
+  background: lightgray !important;
+}
+th.cheque_srno, th.cheque_cpb,th.cheque_chqno,th.cheque_bank{
+  width: 100px !important;
+}
+table.cheque_table tr.cheque_heading_row > th{
+  vertical-align: middle !important;
+  padding: 5px !important;
+}
+table.journal_table tr.cheque_heading_row > th{
+  vertical-align: middle !important;
+  padding: 5px !important;
+}
+table.cheque_table thead tr > th{
+  padding: 5px !important;
+}
+table.journal_table thead tr > th{
+  padding: 5px !important;
+}
+.top_main_class{
+  height: 85px !important;
+}
+div.top_main_class div.cheque_main{
+  width: 64.9% !important;
+  height: 85px !important;
+  float: left !important;
+  border-right: 1px solid #ddd !important;
+}
+div.top_main_class div.cheque_info{
+  width: 35% !important;
+  float: left !important;
+  height: 85px !important;
+
+}
+tr.bottom_rows td{
+  height: 55px !important;
+}
+div.account_head_main{
+  width: 100% !important;
+}
+div.account_head_main div.party{
+  width: 98% !important;
+  margin: 0 auto !important;
+  text-align: justify !important;
+  font-weight: bold !important;
+}
+div.account_head_main div.desc{
+  width: 94% !important;
+  margin: 0 auto !important;
+  text-align: justify !important;
+}
+th.cheque_accode{
+  width: 80px !important;
+}
+th.cheque_debit, th.cheque_credit{
+  width: 150px !important;
+}
+th.cheque_cpbno{
+  width: 80px !important;
+}
+tr.cheque_transaction_row td.debit_credit{
+  text-align: right !important;
+} */
+  /* cheque voucher styling */
+
+  /* cheque print page */
+  table.cheque_table {
+    margin-top: 50px !important;
+  }
+  div.cheque_left,
+  div.cheque_right {
+    width: 50% !important;
+    text-align: left !important;
+    float: left !important;
+    height: 60px !important;
+  }
+  div.cheque_left div.party_label {
+    margin-top: 12px !important;
+  }
+  div.cheque_right {
+    position: relative !important;
+  }
+  div.cheque_right div.status_main {
+    border: 1px solid lightgrey !important;
+    width: 160px !important;
+    text-align: center !important;
+    position: absolute !important;
+    bottom: 10px !important;
+    right: 10px !important;
+    padding: 5px 0 !important;
+  }
+  div.cheque_right div.status_main div.status_heading {
+    font-size: 10px !important;
+    margin-top: -13px !important;
+    background: white !important;
+    width: 80px !important;
+    text-align: center !important;
+  }
+  div.cheque_left div.party_name,
+  div.party_label {
+    font-weight: bold !important;
+    font-size: 12px !important;
+    margin-left: 10px !important;
+  }
+  tr.cheque_transaction_row td {
+    text-align: center !important;
+    padding: 7px !important;
+  }
+  tr.cheque_transaction_row td:nth-child(7) {
+    text-align: right !important;
+  }
+  div.cheque_info div.cheque_voucher_heading {
+    font-size: 14px !important;
+    background: lightgray !important;
+    padding: 5px 0 !important;
+    font-weight: bold !important;
+  }
+  div.cheque_info div.cheque_voucher_date {
+    font-size: 12px !important;
+    padding: 5px 0 !important;
+    border-bottom: 1px solid #ddd !important;
+  }
+  div.cheque_info div.cheque_voucher_no {
+    font-size: 12px !important;
+    padding: 5px 0 !important;
+  }
+  tr.cheque_total_row > td {
+    font-size: 14px !important;
+    background: lightgray !important;
+  }
+  div.cheque_table div.print_date {
+    font-weight: 400 !important;
+  }
+
+  th.cheque_srno,
+  th.cheque_cpb,
+  th.cheque_chqno,
+  th.cheque_bank {
+    width: 60px !important;
+  }
+  th.cheque_dated {
+    width: 80px !important;
+  }
+  th.cheque_amount {
+    width: 150px !important;
+  }
+  table.cheque_table tbody tr.cheque_heading_row > th {
+    vertical-align: middle !important;
+    padding: 5px !important;
+    font-size: 12px !important;
+  }
+  table.journal_table tbody tr.cheque_heading_row > th {
+    vertical-align: middle !important;
+    padding: 5px !important;
+    font-size: 14px !important;
+  }
+  table.cheque_table tbody tr.cheque_heading_row > td {
+    font-size: 12px !important;
+  }
+  table.journal_table tbody tr.cheque_heading_row > td {
+    font-size: 12px !important;
+  }
+  table.cheque_table thead tr > th {
+    padding: 5px !important;
+  }
+  table.journal_table thead tr > th {
+    padding: 5px !important;
+  }
+  .top_main_class {
+    height: 85px !important;
+  }
+  div.top_main_class div.cheque_main {
+    width: 64.9% !important;
+    float: left !important;
+    height: 85px !important;
+    border-right: 1px solid #ddd !important;
+  }
+  div.top_main_class div.cheque_info {
+    width: 35% !important;
+    float: left !important;
+    height: 85px !important;
+  }
+  tr.bottom_rows td {
+    height: 55px !important;
+  }
+  /* cheque print page */
+
+  /* cp or cr */
+  .parentinfoprintcpcr {
+    display: block;
+  }
+  /* cp or cr */
+
+  /* trial balance */
+  .trialbalancetable {
+    width: 55% !important;
+    text-align: center !important;
+  }
+  .trialbalancesort {
+    visibility: hidden;
+  }
+  .trialbalancecompany {
+    font-size: 35px !important;
+  }
+  /* trial balance */
+
+  /* cash payment */
+  .add_new_cp_trans {
+    display: none;
+  }
+  .tr_loop_cp_trans {
+    margin-top: -50px;
+  }
+  .action_without_print {
+    display: none !important;
+  }
+  .icons {
+    display: none;
+  }
+  /* cash payment */
+
+  .btnsgroup {
+    visibility: hidden;
+  }
+  .signature {
+    text-align: left;
+    text-align: justify;
+    vertical-align: bottom;
+    padding-top: 50px;
+  }
+  .firmname {
+    padding-top: 50px;
+  }
+  #mysection {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

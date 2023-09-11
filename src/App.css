@@ -1,0 +1,579 @@
+:root {
+  --body-bg-color: grey;
+  --main-font-color: #444;
+  --normal-font-size: 12px;
+  --small-font-size: 10px;
+  --panel-bg-color: #d9edf7;
+  --top-btn-bg: #d9edf7;
+  --top-btn-border: #ccc;
+  --top-btn-color: #444;
+  --bottom-btn-bg: #5bc0de;
+  --bottom-btn-color: #fff;
+  --bottom-btn-border: #46b8da;
+  --main-container-border: darkgrey;
+  --main-div-border: #eee;
+}
+
+.main_container {
+  background: var(--main-container-border);
+  padding: 8px 0;
+}
+
+.main-div {
+  width: 96%;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin: 0 auto;
+  background: #fff !important;
+  float: right;
+  margin-right: 8px;
+}
+
+.mgs {
+  text-align: center;
+}
+
+.msg_div {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.panel_heading {
+  border-bottom: 1px solid darkgrey;
+  font-size: 20px;
+  color: #444;
+  text-align: left;
+  padding: 15px 0 15px 25px;
+}
+
+.loggedinuser {
+  width: 300px;
+  font-size: 14px;
+  color: #444;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 5px 0 40px;
+}
+
+.page_caption_area {
+  width: 97%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.caption_voc {
+  width: 40px;
+  color: #333;
+  text-align: right;
+  padding-right: 15px;
+  margin-top: 5px;
+  float: left;
+}
+
+.field_voc {
+  width: 67px;
+  float: left;
+  text-align: center;
+}
+
+.field_voc_input {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.plus {
+  width: 20px;
+  text-align: right;
+  margin-left: 1px;
+  margin-right: 1px;
+  float: left;
+}
+
+.plus button {
+  width: 20px;
+}
+
+.minus {
+  width: 20px;
+  text-align: left;
+  margin-left: 0px;
+  margin-right: 1px;
+  float: left;
+}
+
+.minus button {
+  width: 20px;
+}
+
+.maxvoucher_voc {
+  width: 40px;
+  text-align: left;
+  margin-left: 0;
+  margin-right: 20px;
+  float: left;
+}
+
+.field_small {
+  width: 150px;
+  float: left;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.field_big {
+  width: 300px;
+  float: left;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.field_small_status {
+  width: 40px;
+  text-align: center;
+  padding: 3px 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.field_big_status {
+  width: 300px;
+  text-align: center;
+  padding: 3px 0;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
+  float: left;
+}
+
+/* vouchers bottom buttons styling */
+.voc_btn_bottom {
+  width: 100%;
+  text-align: right;
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+
+.voc_btn_bottom .btn {
+  margin-left: 1px;
+}
+
+.printing_area table {
+  margin-bottom: 10px !important;
+}
+
+/* vouchers bottom buttons styling */
+
+/* forms styling */
+.form_main_wrapper {
+  background: #ffffff;
+}
+
+.form_main_wrapper .form_area {
+  margin: 30% auto;
+  border-radius: 8px;
+  background: darkgray;
+}
+
+.form_main_wrapper .form_area .form_content {
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form_main_wrapper .form_content .logo_img {
+  text-align: left;
+}
+
+.form_main_wrapper .form_content .logo_img img {
+  width: 60%;
+}
+
+a.btn.btn-info.SignUp_SignIn_Btn {
+  line-height: 28px;
+}
+
+.form_main_wrapper .form_area .form_content .form_inputs_area {
+  background: white;
+  border-radius: 8px;
+  padding: 15px 25px 50px 25px;
+}
+
+.form_main_wrapper .form_area .form_content .form_inputs_area .form_error {
+  height: 30px;
+  font-size: 12px;
+}
+
+.SignIn_SignUp_Form_Bottom_Area {
+  width: 100%;
+}
+
+.SignIn_SignUp_Form_Bottom_Area .SignIn_SignUp_Form_Left {
+  text-align: left;
+  float: left;
+}
+
+.SignIn_SignUp_Form_Bottom_Area .SignIn_SignUp_Form_Right {
+  text-align: right;
+  float: right;
+}
+
+/* forms styling */
+
+/* statement page table styling */
+/* .statement_row{
+  font-size: 12px;
+}
+.statement_row:hover{
+  background: #d9edf7;
+} */
+
+table tr,
+table td,
+.caption_voc,
+.field_big,
+.field_small input,
+.field_voc,
+.field_voc input,
+.field_small,
+.field_big_status,
+.field_small_status {
+  font-size: var(--main-font-color) !important;
+}
+
+table tr td {
+  padding: 5px !important;
+  vertical-align: middle !important;
+}
+
+input {
+  border-radius: 0;
+}
+
+.form-control {
+  font-size: 12px !important;
+  height: 30px !important;
+  border-radius: 0px !important;
+}
+
+.btn {
+  padding: 0px 12px !important;
+  height: 30px !important;
+  line-height: 25px;
+  border-radius: 0 !important;
+  font-size: 12px !important;
+}
+
+.maxvoc {
+  padding: 0px 3px !important;
+  height: 30px !important;
+  outline: none;
+  border: 1px solid #ccc;
+  background: #d9edf7;
+  border-radius: 0 !important;
+  font-size: 10px !important;
+}
+
+.maxvoc:hover {
+  border-color: lightgray;
+}
+
+.plusminus {
+  background: #d9edf7;
+  outline: none;
+  border: 1px solid lightgray;
+  margin-top: 2px;
+  margin-right: 2px;
+  padding: 4px 15px;
+}
+
+.plusminus:hover {
+  border-color: #000;
+}
+
+.btn-xs {
+  height: unset !important;
+  padding: 0px 5px !important;
+}
+
+.btn-xs .fa {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.fa {
+  font-size: 10px !important;
+}
+
+/* cash payment */
+.heading_with_print {
+  display: none;
+}
+
+.trial_bal_table_amounts tr td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6),
+td:nth-child(7),
+td:nth-child(8) {
+  text-align: right;
+}
+
+.trial_heading {
+  text-align: center;
+}
+
+.action_without_print {
+  text-align: center !important;
+}
+
+.parentinfoprintcpcr {
+  display: none;
+}
+
+.css-b62m3t-container {
+  text-align: left;
+}
+
+.transactions_section {
+  width: 97%;
+  margin-top: 15px !important;
+  margin: 0px auto;
+}
+
+/* vouchers show / hide on web page */
+.newprint {
+  display: none;
+}
+
+@media only screen and (max-width: 520px) {
+
+  /* plus minus and max voucher styling */
+  .page_caption_area {
+    padding-top: 0px;
+  }
+
+  .panel_heading {
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 15px 10px 15px 10px !important;
+  }
+
+  .panel_heading .col-md-6:nth-child(1) {
+    width: 65% !important;
+    float: left;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .panel_heading .col-md-6:nth-child(2) {
+    width: 35% !important;
+    float: left;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .loggedinuser {
+    width: 100%;
+    font-size: 14px;
+    color: #444;
+    text-align: right !important;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 5px 0 0px;
+  }
+
+  .caption_voc {
+    width: 20%;
+    margin-left: 0px;
+    margin-bottom: 7px;
+    font-size: var(--small-font-size) !important;
+  }
+
+  .field_voc {
+    width: 48%;
+    margin-bottom: 7px;
+  }
+
+  .maxvoucher_voc {
+    width: 15%;
+    padding-left: 1%;
+    /* border-right: 1px solid #ccc; */
+    margin-bottom: 7px;
+    margin-right: 0px;
+  }
+
+  .maxvoc {
+    width: 100%;
+  }
+
+  .plus {
+    width: 8%;
+    text-align: right;
+    margin-left: 0;
+    float: left;
+    display: block;
+  }
+
+  .plus button {
+    width: 22px;
+  }
+
+  .minus {
+    width: 8%;
+    text-align: center;
+    margin-left: 0;
+    float: left;
+    display: block;
+  }
+
+  .minus button {
+    width: 22px;
+    padding: 0;
+    margin: 0;
+    line-height: 10px;
+  }
+
+  .field_small {
+    width: 80%;
+    float: left;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .field_big {
+    width: 80%;
+    float: left;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .field_small_status {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .field_big_status {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .field_voc input,
+  .field_big_status,
+  .field_small_status,
+  .field_big .css-b62m3t-container,
+  .field_small input {
+    font-size: var(--small-font-size) !important;
+  }
+
+  .main-div {
+    width: 96%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin: 0 auto;
+    background: #fff !important;
+    /* padding-bottom: 50px; */
+    float: right;
+    margin-right: 8px;
+  }
+
+  .transactions_section {
+    width: 97%;
+    margin: 0px auto;
+    margin-top: 0px !important;
+    overflow-x: scroll;
+    z-index: -1;
+  }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .transactions_section::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge add Firefox */
+  .transactions_section {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    /* Firefox */
+  }
+
+  /* tables styling on mobile screen */
+  tr td,
+  th {
+    font-size: var(--small-font-size) !important;
+    text-transform: capitalize !important;
+    padding: 5px !important;
+    vertical-align: middle !important;
+  }
+
+  .jvParties,
+  .jvPartiesInput,
+  .jvCPB,
+  .jvCPBInput,
+  .JVNarrationInput {
+    width: 200px !important;
+    font-size: var(--small-font-size) !important;
+  }
+
+  .JVDebitInput,
+  .JVCreditInput {
+    width: 70px !important;
+    font-size: var(--small-font-size) !important;
+  }
+
+  .CPBParties,
+  .CPBPartiesInput,
+  .CPBIssueTo,
+  .CPBNarrationInput,
+  .CPBNarration {
+    width: 150px !important;
+    font-size: var(--small-font-size) !important;
+  }
+
+  .CPBDated,
+  .CPBBankInput,
+  .CPBBank {
+    width: 100px !important;
+    font-size: var(--small-font-size) !important;
+  }
+
+  .CPBDebit,
+  .CPBCHQNo {
+    width: 70px !important;
+    font-size: var(--small-font-size) !important;
+  }
+
+  /* igp page styling */
+  .IGPProducts {
+    width: 150px !important;
+    font-size: var(--small-font-size) !important;
+  }
+
+  .IGPOthers {
+    width: 50px;
+    font-size: var(--small-font-size) !important;
+  }
+
+  .igpproduct {
+    width: 130px !important;
+  }
+
+  /* po page styling */
+  .POProducts {
+    width: 150px !important;
+    font-size: var(--small-font-size) !important;
+  }
+
+  .POOthers {
+    width: 50px;
+    font-size: var(--small-font-size) !important;
+  }
+
+  .poproduct {
+    width: 130px !important;
+  }
+}
